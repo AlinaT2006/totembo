@@ -1,0 +1,143 @@
+.footer {
+  background: #323232;
+}
+
+.footer__nav {
+  padding: 100px 0 85px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer__nav-list-link {
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+}
+.footer__nav-list-title {
+  margin-bottom: 25px;
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.footer__nav-contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.footer__nav-contacts-links {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.footer__nav-contact-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer__nav-contacts-title {
+  font-size: 22px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.footer__nav-contact-desc-address {
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.footer__nav-contact-desc-phones {
+  display: flex;
+  gap: 10px;
+}
+
+.footer__nav-contact-desc-phones__number {
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.footer__nav-contact-desc-email {
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.footer__nav-icons-title {
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.footer__nav-contacts-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.footer__nav-contacts-icons__items {
+    display: flex;
+    gap: 25px;
+}
+
+@media screen and (max-width: 1380px) {
+    .footer__nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+    }
+    .footer__nav-list {
+        align-items: center;
+    }
+    .footer__nav-contacts-links {
+        align-items: center;
+    }
+    .footer__nav-contacts-icons {
+        align-items: center;
+    }
+    .footer__nav-contact-desc {
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .footer__nav-contact-desc-address {
+        font-size: 14px;
+        text-align: center;
+    }
+    .footer__nav-contact-desc-phones__number {
+        font-size: 14px;
+    }
+    .footer__nav-contact-desc-email {
+        font-size: 14px;
+    }
+    .footer__nav-list-link {
+        font-size: 14px;
+    }
+    .footer__nav-list-title {
+        font-size: 19px;
+    }
+    .footer__nav-contacts-title {
+        font-size: 19px;
+    }
+    .footer__nav-icons-title {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .footer__nav-contact-desc {
+        max-width: 300px;
+        width: 100%;
+    }
+}
